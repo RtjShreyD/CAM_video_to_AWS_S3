@@ -1,3 +1,4 @@
 cvs/ 
 .vscode/
 credentials.txt
+config/config.json
