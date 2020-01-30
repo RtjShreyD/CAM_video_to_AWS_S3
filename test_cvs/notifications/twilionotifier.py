@@ -31,7 +31,7 @@ class TwilioNotifier:
 			Bucket=self.conf["s3_bucket"])["LocationConstraint"]
 		url = "https://s3-{}.amazonaws.com/{}/{}".format(location,
 			self.conf["s3_bucket"], filename)
-
+        
 		# initialize the twilio client and send the message
 		client = Client(self.conf["twilio_sid"],
 			self.conf["twilio_auth"])
