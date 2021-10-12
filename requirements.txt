@@ -8,7 +8,7 @@ imutils==0.5.3
 jmespath==0.9.4
 JSON-minify==0.3.0
 numpy==1.18.1
-opencv-contrib-python==4.1.2.30
+opencv-contrib-python==4.2.0.32
 opencv-python==4.1.2.30
 pkg-resources==0.0.0
 PyJWT==1.7.1
